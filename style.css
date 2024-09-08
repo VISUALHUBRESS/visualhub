@@ -1,7 +1,6 @@
 /* ----------------------------------------------
-:: https://colorlib.com
-:: Version: v1.0
-:: Last Updated: 12-13-2017
+:: Version: v3.0
+:: Last Updated: 09-09-2024
 ---------------------------------------------- */
 
 /* Fonts */
@@ -75,7 +74,7 @@ h6 {
 
 /* Menyelaraskan konten form di tengah dengan jarak yang sesuai */
 .form-text {
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
 }
 
@@ -130,7 +129,7 @@ h6 {
 }
 
 .text-all-form {
-    text-align: center;
+    text-align: right;
 }
 
 

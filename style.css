@@ -1,6 +1,4 @@
 /* ----------------------------------------------
-:: Template Name: Caviar - Premium Restaurant Template
-:: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com
 :: Version: v1.0
 :: Last Updated: 12-13-2017
@@ -43,6 +41,83 @@ h6 {
     line-height: 1.3;
 }
 
+/* Jarak antara judul "All Forms" dan tombol */
+.section-heading {
+    margin-bottom: 20px; /* Mengatur jarak yang nyaman antara judul dan tombol */
+}
+
+/* Style untuk tombol, membuat tulisan di dalam tombol menjadi di tengah */
+.form-options {
+    display: flex;
+    justify-content: center;
+}
+
+.form-options button {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center; /* Menengahkan teks secara vertikal */
+    justify-content: center; /* Menengahkan teks secara horizontal */
+    min-width: 150px; /* Lebar minimal tombol agar lebih seragam */
+}
+
+.form-options button:hover {
+    background-color: #555;
+}
+
+/* Menyelaraskan konten form di tengah dengan jarak yang sesuai */
+.form-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto; /* Menempatkan box di tengah */
+    background-color: #f9f9f9;
+    margin-bottom: 40px; /* Jarak antara box form dan section berikutnya */
+}
+
+/* Style untuk box di sekitar "All Forms" */
+.caviar-form-area {
+    border: 1px solid #ddd; /* Border tipis untuk box */
+    border-radius: 10px; /* Sudut border melengkung */
+    padding: 30px; /* Jarak antara konten dan border */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    width: 80%; /* Lebar box */
+    margin: 0 auto; /* Menempatkan box di tengah halaman */
+    margin-top: 40px; /* Jarak dari atas */
+    margin-bottom: 40px; /* Jarak dari section berikutnya */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan sedikit bayangan */
+}
+
+.text-all-form {
+    text-align: center;
+}
+
+
+.form-content p {
+    display: none; /* Sembunyikan elemen secara default */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 p {
     color: rgba(0, 0, 0, 0.8);
     font-size: 16px;
@@ -59,6 +134,7 @@ p {
     padding-top: 150px;
     padding-bottom: 0;
 }
+
 
 .section-padding-0-150 {
     padding-top: 0;
@@ -224,7 +300,7 @@ li {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .section-heading h2 {
@@ -946,23 +1022,27 @@ li {
 /* Awards Area CSS */
 
 .caviar-awards-area {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .caviar-awards-area .section-heading {
-    margin-bottom: 0;
+    margin-top: 100px;
 }
 
-.testimonials-content {
-    padding: 70px 100px;
-    background-color: #fff;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-}
+
 
 /* Testimonials Area CSS */
 
 .caviar-testimonials-area {
-    padding-bottom: 200px;
+    border: 1px solid #ddd; /* Border tipis untuk box */
+    border-radius: 10px; /* Sudut border melengkung */
+    padding: 80px; /* Jarak antara konten dan border */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    width: 80%; /* Lebar box */
+    margin: 0 auto; /* Menempatkan box di tengah halaman */
+    margin-top: 30px; /* Jarak dari atas */
+    margin-bottom: 50px; /* Jarak dari section berikutnya */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan sedikit bayangan */
 }
 
 .single-testimonial {

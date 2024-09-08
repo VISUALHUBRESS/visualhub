@@ -1,5 +1,5 @@
 /* ----------------------------------------------
-:: Template Author URI: https://colorlib.com
+:: https://colorlib.com
 :: Version: v1.0
 :: Last Updated: 12-13-2017
 ---------------------------------------------- */
@@ -102,6 +102,31 @@ h6 {
     margin-top: 40px; /* Jarak dari atas */
     margin-bottom: 40px; /* Jarak dari section berikutnya */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan sedikit bayangan */
+}
+
+/* Responsif untuk perangkat dengan layar kecil (mobile) */
+@media (max-width: 768px) {
+    .caviar-form-area {
+        width: 95%; /* Lebar box diperbesar untuk layar kecil */
+        padding: 20px; /* Kurangi padding agar lebih sesuai di layar kecil */
+        margin-top: 20px; /* Kurangi jarak dari atas */
+        margin-bottom: 30px; /* Kurangi jarak dari bawah */
+    }
+    
+    .section-heading h2 {
+        font-size: 24px; /* Perkecil ukuran font untuk judul */
+    }
+    
+    .form-options button {
+        margin: 10px 5px; /* Kurangi jarak antar tombol */
+        padding: 10px 15px; /* Sesuaikan padding tombol */
+        min-width: 120px; /* Lebar minimal tombol dikurangi */
+    }
+
+    .form-text p {
+        width: 90%; /* Sesuaikan lebar box konten form */
+        padding: 15px; /* Kurangi padding di dalam box konten */
+    }
 }
 
 .text-all-form {
@@ -1033,6 +1058,7 @@ li {
 
 /* Testimonials Area CSS */
 
+/* Testimonials Area */
 .caviar-testimonials-area {
     border: 1px solid #ddd; /* Border tipis untuk box */
     border-radius: 10px; /* Sudut border melengkung */
@@ -1043,6 +1069,24 @@ li {
     margin-top: 30px; /* Jarak dari atas */
     margin-bottom: 50px; /* Jarak dari section berikutnya */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan sedikit bayangan */
+}
+
+/* Responsif untuk perangkat dengan layar kecil (mobile) */
+@media (max-width: 768px) {
+    .caviar-testimonials-area {
+        width: 95%; /* Memperbesar lebar untuk layar kecil */
+        padding: 20px; /* Mengurangi padding agar lebih proporsional di layar kecil */
+        margin-top: 20px; /* Kurangi margin untuk lebih banyak ruang di atas */
+        margin-bottom: 30px; /* Kurangi margin bawah agar konten lebih kompak */
+    }
+    
+    .section-heading h2 {
+        font-size: 24px; /* Perkecil ukuran font untuk judul */
+    }
+    
+    .caviar-testimonials-slides a {
+        font-size: 14px; /* Sesuaikan ukuran teks dalam link */
+    }
 }
 
 .single-testimonial {
